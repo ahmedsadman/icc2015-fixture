@@ -1,0 +1,865 @@
+<!doctype html>
+<html lang="EN">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ICC World Cup 2015 - Dyanamic Fixture</title>
+		<link rel="stylesheet" href="FixtureData/styles/reset.css">
+		<link rel="stylesheet" href="FixtureData/styles/1140.css">
+		<link rel="stylesheet" href="FixtureData/styles/page.css">
+		<link rel="stylesheet" href="FixtureData/styles/flags.css">
+		<script src="FixtureData/scripts/jquery-1.8.2.min.js"></script>
+		<script src="FixtureData/scripts/application.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="twelvecol">
+					<header  id="topAnchor">
+						<img src="FixtureData/images/logo.png" alt="ICC Logo">
+					</header>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<noscript>Sorry, this page won't work unless you enable <strong>JavaScript</strong> in your browser</noscript>
+				<div class="fourcol">
+					<div id="statsBtn"><span></span>Stats</div>
+					<h1 class="heading">Pool A</h1>
+					<table class="stats">
+						<tr>
+							<th>Team</th>
+							<th>Draws</th>
+							<th>Won</th>
+							<th>Lost</th>
+							<th>Points</th>
+						</tr>
+						<tr>
+							<td>England</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>Australia</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>Sri Lanka</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>New Zealand</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>Bangladesh</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>Afghanistan</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>Scotland</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+					</table>
+					<h1 class="heading">Pool B</h1>
+					<table class="stats">
+						<tr>
+							<th>Team</th>
+							<th>Draws</th>
+							<th>Won</th>
+							<th>Lost</th>
+							<th>Points</th>
+						</tr>
+						<tr>
+							<td>India</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>South Africa</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>Pakistan</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>West Indies</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>Zimbabwe</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>Ireland</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>UAE</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+					</table>
+				</div> <!-- end of fivecol -->
+				
+				<div class="eightcol last">
+					<section>
+						<table id="fixture">
+							<tr>
+								<td class="date">14/02</td>
+								<td class="time">04:00 AM</td>
+								<td class="team1">Sri Lanka</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-lk" alt="Sri Lanka"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-nz" alt="New Zealand"></td>
+								<td class="team2">New Zealand</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">14/02</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">Australia</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-au" alt="Australia"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-england" alt="England"></td>
+								<td class="team2">England</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">15/02</td>
+								<td class="time">07:00 AM</td>
+								<td class="team1">South Africa</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-za" alt="South Africa"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-zw" alt="Zimbabwe"></td>
+								<td class="team2">Zimbabwe</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">15/02</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">India</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-in" alt="India"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-pk" alt="Pakistan"></td>
+								<td class="team2">Pakistan</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">16/02</td>
+								<td class="time">04:00 AM</td>
+								<td class="team1">West Indies</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-ag" alt="West Indies"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-ie" alt="Ireland"></td>
+								<td class="team2">Ireland</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">17/02</td>
+								<td class="time">04:00 AM</td>
+								<td class="team1">New Zealand</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-nz" alt="New Zealand"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-scotland" alt="Scotland"></td>
+								<td class="team2">Scotland</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">18/02</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">Bangladesh</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-bd" alt="Bangladesh"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-af" alt="Afghanistan"></td>
+								<td class="team2">Afghanistan</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">19/02</td>
+								<td class="time">04:00 AM</td>
+								<td class="team1">Zimbabwe</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-zw" alt="Zimbabwe"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-ae" alt="UAE"></td>
+								<td class="team2">UAE</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">20/02</td>
+								<td class="time">07:00 AM</td>
+								<td class="team1">England</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-england" alt="England"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-nz" alt="New Zealand"></td>
+								<td class="team2">New Zealand</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">21/02</td>
+								<td class="time">04:00 AM</td>
+								<td class="team1">Pakistan</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-pk" alt="Pakistan"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-ag" alt="West Indies"></td>
+								<td class="team2">West Indies</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">21/02</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">Australia</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-au" alt="Australia"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-bd" alt="Bangladesh"></td>
+								<td class="team2">Bangladesh</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">22/02</td>
+								<td class="time">04:00 AM</td>
+								<td class="team1">Sri Lanka</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-lk" alt="Sri Lanka"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-af" alt="Afghanistan"></td>
+								<td class="team2">Afghanistan</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">22/02</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">South Africa</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-za" alt="South Africa"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-in" alt="India"></td>
+								<td class="team2">India</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">23/02</td>
+								<td class="time">04:00 AM</td>
+								<td class="team1">England</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-england" alt="England"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-scotland" alt="Scotland"></td>
+								<td class="team2">Scotland</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">24/02</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">West Indies</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-ag" alt="West Indies"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-zw" alt="Zimbabwe"></td>
+								<td class="team2">Zimbabwe</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">25/02</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">Ireland</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-ie" alt="Ireland"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-ae" alt="UAE"></td>
+								<td class="team2">UAE</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">26/02</td>
+								<td class="time">04:00 AM</td>
+								<td class="team1">Afghanistan</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-af" alt="Afghanistan"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-scotland" alt="Scotland"></td>
+								<td class="team2">Scotland</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">26/02</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">Sri Lanka</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-lk" alt="Sri Lanka"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-bd" alt="Bangladesh"></td>
+								<td class="team2">Bangladesh</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">27/02</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">South Africa</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-za" alt="South Africa"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-ag" alt="West Indies"></td>
+								<td class="team2">West Indies</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">28/02</td>
+								<td class="time">07:00 AM</td>
+								<td class="team1">Australia</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-au" alt="Australia"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-nz" alt="New Zealand"></td>
+								<td class="team2">New Zealand</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">28/02</td>
+								<td class="time">12:30 AM</td>
+								<td class="team1">India</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-in" alt="India"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-ae" alt="UAE"></td>
+								<td class="team2">UAE</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">01/03</td>
+								<td class="time">04:00 AM</td>
+								<td class="team1">England</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-england" alt="England"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-lk" alt="Sri Lanka"></td>
+								<td class="team2">Sri Lanka</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">01/03</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">Pakistan</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-pk" alt="Pakistan"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-zw" alt="Zimbabwe"></td>
+								<td class="team2">Zimbabwe</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">03/03</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">South Africa</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-za" alt="South Africa"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-ie" alt="Ireland"></td>
+								<td class="team2">Ireland</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">04/03</td>
+								<td class="time">07:00 AM</td>
+								<td class="team1">Pakistan</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-pk" alt="Pakistan"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-ae" alt="UAE"></td>
+								<td class="team2">UAE</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">04/03</td>
+								<td class="time">12:30 AM</td>
+								<td class="team1">Australia</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-au" alt="Australia"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-af" alt="Afghanistan"></td>
+								<td class="team2">Afghanistan</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">05/03</td>
+								<td class="time">04:00 AM</td>
+								<td class="team1">Bangladesh</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-bd" alt="Bangladesh"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-scotland" alt="Scotland"></td>
+								<td class="team2">Scotland</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">06/03</td>
+								<td class="time">12:30 AM</td>
+								<td class="team1">India</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-in" alt="India"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-ag" alt="West Indies"></td>
+								<td class="team2">West Indies</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">07/03</td>
+								<td class="time">07:00 AM</td>
+								<td class="team1">South Africa</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-za" alt="South Africa"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-pk" alt="Pakistan"></td>
+								<td class="team2">Pakistan</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">07/03</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">Zimbabwe</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-zw" alt="Zimbabwe"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-ie" alt="Ireland"></td>
+								<td class="team2">Ireland</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">08/03</td>
+								<td class="time">04:00 AM</td>
+								<td class="team1">New Zealand</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-nz" alt="New Zealand"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-af" alt="Afghanistan"></td>
+								<td class="team2">Afghanistan</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">08/03</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">Australia</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-au" alt="Australia"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-lk" alt="Sri Lanka"></td>
+								<td class="team2">Sri Lanka</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">09/03</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">England</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-england" alt="England"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-bd" alt="Bangladesh"></td>
+								<td class="team2">Bangladesh</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">10/03</td>
+								<td class="time">07:00 AM</td>
+								<td class="team1">India</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-in" alt="India"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-ie" alt="Ireland"></td>
+								<td class="team2">Ireland</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">11/03</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">Sri Lanka</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-lk" alt="Sri Lanka"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-scotland" alt="Scotland"></td>
+								<td class="team2">Scotland</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">12/03</td>
+								<td class="time">07:00 AM</td>
+								<td class="team1">South Africa</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-za" alt="South Africa"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-ae" alt="UAE"></td>
+								<td class="team2">UAE</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">13/03</td>
+								<td class="time">07:00 AM</td>
+								<td class="team1">Bangladesh</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-bd" alt="Bangladesh"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-nz" alt="New Zealand"></td>
+								<td class="team2">New Zealand</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">13/03</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">England</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-england" alt="England"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-af" alt="Afghanistan"></td>
+								<td class="team2">Afghanistan</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">14/03</td>
+								<td class="time">07:00 AM</td>
+								<td class="team1">India</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-in" alt="India"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-zw" alt="Zimbabwe"></td>
+								<td class="team2">Zimbabwe</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">14/03</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">Australia</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-au" alt="Australia"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-scotland" alt="Scotland"></td>
+								<td class="team2">Scotland</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">15/03</td>
+								<td class="time">04:00 AM</td>
+								<td class="team1">West Indies</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-ag" alt="West Indies"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-ae" alt="UAE"></td>
+								<td class="team2">UAE</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">15/03</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">Pakistan</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png" class="flag flag-pk" alt="Pakistan"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png" class="flag flag-ie" alt="Ireland"></td>
+								<td class="team2">Ireland</td>
+								<td>
+									<form>
+										<input type="checkbox" name="">
+										<input type="checkbox" name="">
+									</form>
+								</td>
+							</tr>
+							
+							<!-- Start of Quarter-Final -->
+							<tr class="separator">
+								<td colspan="7" style="text-align: center">Quarter-Final</td>
+							</tr>
+							
+							<tr>
+								<td class="date">18/03</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">TBD</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png"></td>
+								<td class="team2">TBD</td>
+								<td>
+									<form>
+										<input type="checkbox" name="" disabled>
+										<input type="checkbox" name="" disabled>
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">19/03</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">TBD</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png"></td>
+								<td class="team2">TBD</td>
+								<td>
+									<form>
+										<input type="checkbox" name="" disabled>
+										<input type="checkbox" name="" disabled>
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">20/03</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">TBD</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png"></td>
+								<td class="team2">TBD</td>
+								<td>
+									<form>
+										<input type="checkbox" name="" disabled>
+										<input type="checkbox" name="" disabled>
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">21/03</td>
+								<td class="time">07:00 AM</td>
+								<td class="team1">TBD</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png"></td>
+								<td class="team2">TBD</td>
+								<td>
+									<form>
+										<input type="checkbox" name="" disabled>
+										<input type="checkbox" name="" disabled>
+									</form>
+								</td>
+							</tr>
+							
+							<!-- Start of Semi-Final -->
+							<tr class="separator">
+								<td colspan="7" style="text-align: center; background-color: #6959CD">Semi-Final</td>
+							</tr>
+							
+							<tr>
+								<td class="date">24/03</td>
+								<td class="time">07:00 AM</td>
+								<td class="team1">TBD</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png"></td>
+								<td class="team2">TBD</td>
+								<td>
+									<form>
+										<input type="checkbox" name="" disabled>
+										<input type="checkbox" name="" disabled>
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="date">26/03</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">TBD</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png"></td>
+								<td class="team2">TBD</td>
+								<td>
+									<form>
+										<input type="checkbox" name="" disabled>
+										<input type="checkbox" name="" disabled>
+									</form>
+								</td>
+							</tr>
+							
+							<!-- Final -->
+							<tr class="separator">
+								<td colspan="7" style="text-align: center; background-color: #6959CD">Final</td>
+							</tr>
+							<tr>
+								<td class="date">29/03</td>
+								<td class="time">09:30 AM</td>
+								<td class="team1">TBD</td>
+								<td class="flag1"><img src="FixtureData/images/blank.png"></td>
+								<td class="flag2"><img src="FixtureData/images/blank.png"></td>
+								<td class="team2">TBD</td>
+								<td>
+									<form>
+										<input type="checkbox" name="" disabled>
+										<input type="checkbox" name="" disabled>
+									</form>
+								</td>
+							</tr>
+						</table>
+					</section>
+				</div> <!-- end of sevencol -->
+			</div>
+		</div> <!-- end of .container -->
+		<footer>
+			<p>&copy; <a href="mailto:ahmedsadman.211@gmail.com">Sadman Muhib Samyo</a> - 2015, Some rights reserved</p>
+			<p>Released under <a rel="license" target="_blank" href="http://opensource.org/licenses/MIT">MIT</a>.</p>
+		</footer>
+	</body>
+</html>
